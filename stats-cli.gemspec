@@ -3,11 +3,11 @@ require File.join([File.dirname(__FILE__),'lib','stats-cli','version.rb'])
 spec = Gem::Specification.new do |s| 
   s.name = 'stats-cli'
   s.version = StatsCli::VERSION
-  s.author = 'Your Name Here'
-  s.email = 'your@email.address.com'
+  s.author = 'Taylor Stib'
+  s.email = 'taylorstib.dev@gmail.com'
   s.homepage = 'http://your.website.com'
   s.platform = Gem::Platform::RUBY
-  s.summary = 'A description of your project'
+  s.summary = 'Command line tool for viewing NFL stats'
   s.files = `git ls-files`.split("
 ")
   s.require_paths << 'lib'
