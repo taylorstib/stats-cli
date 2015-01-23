@@ -1,6 +1,6 @@
 = Stats-cli for NFL stats in the command line
 
-This command line utility will allow Football fans to quickly get NFL stats without having to go through the browser. Useful for keeping up with Fantasy sports or whenever curiosity strikes and you just have to know who led the league in passing in 2002. 
+==== This command line utility will allow Football fans to quickly get NFL stats without having to go through the browser. Useful for keeping up with Fantasy sports or whenever curiosity strikes and you just have to know who led the league in passing in 2002. 
 
 First iterations of this tool will feature a limited number of seasons and offensive stats such as passing, rushing and receiving. Further down the road implementations will include kicking, defense, and possibly other sports as well. 
 
