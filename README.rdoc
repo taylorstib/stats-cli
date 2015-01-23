@@ -1,0 +1,6 @@
+= stats-cli
+
+Describe your project here
+
+:include:stats-cli.rdoc
+

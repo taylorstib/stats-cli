@@ -1,0 +1,5 @@
+= stats-cli
+
+Generate this with
+    stats-cli rdoc
+After you have described your command line interface
