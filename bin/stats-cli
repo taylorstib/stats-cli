@@ -26,7 +26,7 @@ default_value 'the default'
 arg_name 'The name of the argument'
 flag [:f,:flagname]
 
-desc 'Describe pass here'
+desc 'Print passing stats to terminal'
 arg_name 'Describe arguments to pass here'
 command :pass do |c|
   c.desc 'Describe a switch to pass'
@@ -46,7 +46,7 @@ command :pass do |c|
   end
 end
 
-desc 'Describe rush here'
+desc 'Print rushing stats to terminal'
 arg_name 'Describe arguments to rush here'
 command :rush do |c|
   c.action do |global_options,options,args|
@@ -54,7 +54,7 @@ command :rush do |c|
   end
 end
 
-desc 'Describe rec here'
+desc 'Print receiving stats to terminal'
 arg_name 'Describe arguments to rec here'
 command :rec do |c|
   c.action do |global_options,options,args|
