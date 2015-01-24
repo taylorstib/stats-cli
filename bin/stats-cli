@@ -26,6 +26,11 @@ default_value 'the default'
 arg_name 'The name of the argument'
 flag [:f,:flagname]
 
+desc 'Specify an NFL season'
+default_value '2014'
+arg_name 'SEASON'
+flag [:y,:year]
+
 desc 'Print passing stats to terminal'
 arg_name 'Describe arguments to pass here'
 command :pass do |c|
