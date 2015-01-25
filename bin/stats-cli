@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'gli'
+require 'rainbow'
 begin # XXX: Remove this begin/rescue before distributing your app
 require 'stats-cli'
 rescue LoadError
@@ -47,7 +48,7 @@ command :pass do |c|
     # If you have any errors, just raise them
     # raise "that command made no sense"
 
-    puts "pass command ran"
+    puts Rainbow("pass command ran").green
   end
 end
 
@@ -55,7 +56,7 @@ desc 'Print rushing stats to terminal'
 arg_name 'Describe arguments to rush here'
 command :rush do |c|
   c.action do |global_options,options,args|
-    puts "rush command ran"
+    puts Rainbow("rush command ran").green
   end
 end
 
@@ -63,7 +64,7 @@ desc 'Print receiving stats to terminal'
 arg_name 'Describe arguments to rec here'
 command :rec do |c|
   c.action do |global_options,options,args|
-    puts "rec command ran"
+    puts Rainbow("rec command ran").green
   end
 end
 
