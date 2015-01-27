@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    stats-cli (0.0.1)
+    stats-cli (0.0.1.pre)
       gli (= 2.12.2)
       rainbow
 
