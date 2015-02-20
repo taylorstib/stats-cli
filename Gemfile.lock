@@ -3,7 +3,7 @@ PATH
   specs:
     stats-cli (0.0.1.pre)
       gli (= 2.12.2)
-      rainbow
+      rainbow (= 2.0.0)
 
 GEM
   remote: https://rubygems.org/

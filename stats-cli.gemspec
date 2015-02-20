@@ -5,11 +5,10 @@ spec = Gem::Specification.new do |s|
   s.version = StatsCli::VERSION
   s.author = 'Taylor Stib'
   s.email = 'taylorstib.dev@gmail.com'
-  s.homepage = 'http://your.website.com'
+  s.homepage = 'http://taylorstib.github.io'
   s.platform = Gem::Platform::RUBY
   s.summary = 'Command line tool for viewing NFL stats'
-  s.files = `git ls-files`.split("
-")
+  s.files = `git ls-files`.split("\n")
   s.require_paths << 'lib'
   s.has_rdoc = true
   s.extra_rdoc_files = ['README.rdoc','stats-cli.rdoc']
